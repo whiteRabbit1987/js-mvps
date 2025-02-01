@@ -7,12 +7,27 @@
     <meta name="description" content="template HTML">
     <meta name="author" content="Your Name">
     <meta name="keywords" content="HTML, template, skeleton, example">
-    <title>Document Title</title>
+    <title>Temperature Converter</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+   <form>
+        <h1>Temperature conversion:</h1>
+        <input type="number" id="inputBox" value="0"><br>
+
+        <input type="radio" name="unit" id="toFaren">
+        <label for="toFaren">Celsius ➡️ Fahrenheit</label><br>
+
+        <input type="radio" name="unit" id="toCel">
+        <label for="toCel">Fahrenheit ➡️ Celsius</label><br>
+
+        <button type="button" onclick="convert()">submit</button>
+
+        <p id="converted">Select a temperature unit!</p>
+
+   </form>
   
     <script src="script/script.js"></script>
 </body>

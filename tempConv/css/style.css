@@ -1,0 +1,53 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(225, 225, 225);
+}
+
+h1{
+    color: rgb(63, 63, 255);
+}
+
+form{
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 3px 20px rgb(25, 25, 25);
+}
+
+#inputBox{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    border: 3px solid rgb(25, 25, 25);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: rgb(63, 63, 255);
+    color: white;
+    font-size: 1.25;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(43, 23, 215);
+    color: white;
+}
+
+#converted{
+    font-size: 1.5em;
+    font-weight: bold;
+}
