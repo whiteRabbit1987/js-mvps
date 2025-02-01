@@ -1,9 +1,11 @@
-const num = 5;
-const string = 'words';
+let timer;
+var num = 1
 
-if(string.length > 10 || num > 1 ){
-    console.log(num);
-}
-else {
-    console.log(string);
-}
+setTimeout(() => {
+    for(let i = 0; i < 10; i++){
+        console.log(`Num is ${num}`);
+        num++
+    }
+},
+    timer += num * 1000
+)
