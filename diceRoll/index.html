@@ -7,13 +7,22 @@
     <meta name="description" content="template HTML">
     <meta name="author" content="Your Name">
     <meta name="keywords" content="HTML, template, skeleton, example">
-    <title>Document Title</title>
+    <title>Lucky Roller</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-  
+    <div class="container">
+        <h1>Dice Roller</h1><br>
+        <label for="numDice"># of dice:</label>
+        <input type="number" name="numName" id="numDice" value="1" min="1" max="6">
+        <button type="button" onclick="rollDice()">Roll Dice</button>
+    </div>
+    <div class="container">
+        <p id="result">dice: 1</p>
+        <span id="imgDice"><img src="img/white1.png" alt="Dice 1"></span>
+    </div>
     <script src="script/script.js"></script>
 </body>
 
