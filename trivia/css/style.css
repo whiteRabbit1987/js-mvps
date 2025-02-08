@@ -1,0 +1,43 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    text-align: center;
+    padding: 15px;
+    margin: 125px auto;
+    max-width: 80%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+h1{
+    font-size: 3.5em;
+    font-weight: bold;
+}
+label{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+input{
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(77, 1, 143);
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(140, 47, 222);
+    color: rgb(0, 0, 0);
+}
+#feedback{
+    margin: 25px;
+    font-weight: bold;
+}
