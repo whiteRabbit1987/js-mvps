@@ -1,10 +1,8 @@
-const person = {
-    firstname: 'Dave', 
-    lastname: 'Abbott', 
-    age: 25, 
-    sayHello(){
-        console.log(`Hello, my name is ${this.firstname}.`);
-    }
-}
+const fruits = [{name: 'apple', color: 'red', calories: 95}, 
+                {name: 'banana', color: 'yellow', calories: 105}, 
+                {name: 'orange', color: 'orange', calories: 45}, 
+                {name: 'pineapple', color: 'yellow', calories: 37}];
 
-person.sayHello();
+const yellowFruits = fruits.filter(fruit => fruit.color === 'yellow');
+
+console.log(yellowFruits);

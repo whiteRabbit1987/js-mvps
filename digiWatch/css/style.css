@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-image: url(../img/starfield.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace, 'Courier New', Courier;
+    font-size: 5.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(10px);
+    width: 80%;
+    border-radius: 15px;
+    background-color: hsla(288, 90%, 71%, 0.09);
+}
+.btn{
+    padding: 15px;
+    margin: 15px auto 15px auto;
+    display: flex;
+    justify-content: center;
+    font-family: monospace, 'Courier New', Courier;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(10px);
+    width: 20%;
+    border-radius: 15px;
+    background-color: hsla(288, 90%, 71%, 0.09);
+}

@@ -27,6 +27,16 @@ const questions = [
     {"question": "Which Unreal Engine class is used to create an interactive object in the game world?", "answer": "AActor"},
     {"question": "What is the difference between GET and POST methods in HTTP?", "answer": "GET requests data from a server, while POST submits data to be processed."},
     {"question": "What does VLAN stand for?", "answer": "Virtual Local Area Network"},
-    {"question": "What is the purpose of the sudo command in Linux?", "answer": "It allows a user to execute commands with superuser privileges."}
+    {"question": "What is the purpose of the sudo command in Linux?", "answer": "It allows a user to execute commands with superuser privileges."},
+    {"question": "What is a segmentation fault in C/C++?", "answer": "A runtime error that occurs when a program accesses restricted or invalid memory locations."},
+    {"question": "How do you declare a pure virtual function in C++?", "answer": "By assigning 0 to a virtual function inside a base class, e.g., virtual void func() = 0;"},
+    {"question": "What is the purpose of the 'BlueprintCallable' specifier in Unreal Engine?", "answer": "It allows a C++ function to be called from a Blueprint script."},
+    {"question": "What is the difference between 'let', 'var', and 'const' in JavaScript?", "answer": "'var' is function-scoped, 'let' is block-scoped, and 'const' is block-scoped but immutable."},
+    {"question": "Which command is used to view the routing table on a Cisco router?", "answer": "show ip route"},
+    {"question": "What does the 'JOIN' clause do in SQL?", "answer": "It combines rows from two or more tables based on a related column."},
+    {"question": "What is the default shell in most Linux distributions?", "answer": "Bash (Bourne Again Shell)"},
+    {"question": "Which Unix command is used to display the last 10 lines of a file?", "answer": "tail -10 <filename>"},
+    {"question": "What is the purpose of the 'ping' command in networking?", "answer": "It tests connectivity between two devices using ICMP echo requests."},
+    {"question": "What is the difference between IPv4 and IPv6?", "answer": "IPv4 uses 32-bit addresses and supports ~4.3 billion devices, while IPv6 uses 128-bit addresses and supports a virtually unlimited number of devices."}
 ];
 console.log(`${questions.length} questions are loaded!`);
