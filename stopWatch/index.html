@@ -7,13 +7,23 @@
     <meta name="description" content="template HTML">
     <meta name="author" content="Your Name">
     <meta name="keywords" content="HTML, template, skeleton, example">
-    <title>Document Title</title>
+    <title>Stop Watch</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-  
+  <h1 id="h1">Stopwatch</h1>
+  <div id="container">
+    <div id="display">
+        00:00:00:00
+   </div>
+    <div id="controls">
+        <button id="startBtn" onclick="start()">Start</button>
+        <button id="stopBtn" onclick="stop()">Stop</button>
+        <button id="resetBtn" onclick="reset()">Reset</button>
+    </div>
+  </div>
     <script src="script/script.js"></script>
 </body>
 
