@@ -7,12 +7,34 @@
     <meta name="description" content="template HTML">
     <meta name="author" content="Your Name">
     <meta name="keywords" content="HTML, template, skeleton, example">
-    <title>Document Title</title>
+    <title>Simple Calculator</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-
 <body>
+
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="show('+')" class="operator">+</button>
+            <button onclick="show('7')">7</button>
+            <button onclick="show('8')">8</button>
+            <button onclick="show('9')">9</button>
+            <button onclick="show('-')" class="operator">-</button>
+            <button onclick="show('4')">4</button>
+            <button onclick="show('5')">5</button>
+            <button onclick="show('6')">6</button>
+            <button onclick="show('*')" class="operator">*</button>
+            <button onclick="show('1')">1</button>
+            <button onclick="show('2')">2</button>
+            <button onclick="show('3')">3</button>
+            <button onclick="show('/')" class="operator">/</button>
+            <button onclick="show('0')">0</button>
+            <button onclick="show('.')">.</button>
+            <button onclick="calc()">=</button>
+            <button onclick="clearDisplay()" class="operator">C</button>
+        </div>
+    </div>
   
     <script src="script/script.js"></script>
 </body>
