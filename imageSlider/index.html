@@ -7,13 +7,23 @@
     <meta name="description" content="template HTML">
     <meta name="author" content="Your Name">
     <meta name="keywords" content="HTML, template, skeleton, example">
-    <title>Document Title</title>
+    <title>Image Slider</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   
+    <div class="slider">
+        <div class="slides">
+            <img src="img/deb_blue.jpg" class="slide">
+            <img src="img/deb_red.jpg" class="slide">
+            <img src="img/deb_red2.jpg" class="slide">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+    </div>
+
     <script src="script/script.js"></script>
 </body>
 
