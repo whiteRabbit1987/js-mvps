@@ -21,6 +21,16 @@ document.addEventListener('keydown', event => {
     }
 });
 
+document.addEventListener('keydown', event => {
+    eventBox.style.backgroundColor = 'red';
+    eventBox.textContent = "Too fast 😖";
+});
+
+document.addEventListener('keyup', event => {
+    eventBox.style.backgroundColor = 'blue';
+    eventBox.textContent = "Click me! 😁";
+});
+
 eventBox.addEventListener('mouseover', event => {
     event.target.style.backgroundColor = 'yellow';
     event.target.textContent = "Don't! 😥";
